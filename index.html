@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/listmaker.css">
+	<link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-sm-offset-0">
+				<h1 class="logo"><span class="glyphicon glyphicon-tasks" aria-hidden="true"></span> <br> <span class='flashing'>|</span> </h1>
+				<p>add item, click add button or press ENTER to add to list. to delete items select and press DELETE</p>
+			<div class="input-group input-group-lg">
+				<span id='add' class="input-group-addon">add</span>
+				<input type="text" class='form-control input-box title' placeholder='add your list items here'>
+			</div>
+		
+	<ul class="list">
+		<li>
+			<span class="glyphicon glyphicon-chevron-up hide" aria-hidden="true"></span>
+			<span class="glyphicon glyphicon-chevron-down hide" aria-hidden="true"></span>
+			your items will appear here 
+			<span class="glyphicon glyphicon-pencil edit"></span>
+			<span class="glyphicon glyphicon-refresh reorder"></span>
+			<span class="glyphicon glyphicon-trash delete" aria-hidden="true"></span>
+	</ul>
+			</div>
+		</div>
+	</div>
+<script src="js/jquery.js"></script>
+<script src="js/jquery.easing.min.js"></script>	
+<script src="js/listmaker.js"></script>
+</body>
+</html>

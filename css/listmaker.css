@@ -1,0 +1,82 @@
+body{
+	padding-top: 50px;
+	font-size:1.2em;
+	font-family: helvetica;
+	background-color: #D24D57;
+	color: white;
+
+}
+ul{
+	padding-top: 20px;
+	padding-left: 80px;
+	font-size: 150%;
+	list-style: none;
+
+}
+.selected {
+	background-color: black;
+	color: white;
+	opacity:.2;
+}
+
+.logo{
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size:10vw;
+	margin: 0;
+	text-align: center;
+}
+.logo, p, li {
+	opacity: .3;
+}
+p{
+	text-align: center;
+}
+input {
+	background-color: #D24D57;
+}
+button {
+	display: block;
+	border-radius: 0px;
+	background-color:white;
+	border: none;
+	margin: 5px;
+	float: left;
+}
+button.up {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+button:focus{
+	background-color: grey;
+	outline: none;
+}
+.hide{
+	visibility: hidden;
+}
+.edit {
+	color: white;
+	/*font-style: italic;*/
+	/*text-align: right;*/
+	float:right;
+	opacity:.3;
+}
+.delete {
+	padding-right: 10px;
+	color: white;
+	/*font-style: italic;*/
+	text-align: right;
+	float:right;
+	opacity:.3;
+}
+.reorder {
+	padding-right: 10px;
+	color: white;
+	/*font-style: italic;*/
+	/*text-align: right;*/
+	float:right;
+	opacity:.3;
+}
+.description {
+	padding-left: 50px;
+}
